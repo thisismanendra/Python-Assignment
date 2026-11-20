@@ -1,6 +1,3 @@
-# Program 1: Student Information and Academic Summary
-# This program accepts student details and marks and displays an academic summary.
-
 print("===== STUDENT INFORMATION AND ACADEMIC SUMMARY =====")
 
 name = input("Enter student name: ")
@@ -12,11 +9,9 @@ print("\nEnter marks for five subjects:")
 mark1 = float(input("Subject 1: "))
 mark2 = float(input("Subject 2: "))
 mark3 = float(input("Subject 3: "))
-mark4 = float(input("Subject 4: "))
-mark5 = float(input("Subject 5: "))
 
-total = mark1 + mark2 + mark3 + mark4 + mark5
-average = total / 5
+total = mark1 + mark2 + mark3
+average = total / 3
 
 if average >= 90:
     grade = "A+"

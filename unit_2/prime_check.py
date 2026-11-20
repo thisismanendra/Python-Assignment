@@ -1,8 +1,4 @@
-# Program 1: Check Whether a Number is Prime or Not Prime
-# A prime number has exactly two factors: 1 and itself.
-
 number = int(input("Enter a number: "))
-
 if number <= 1:
     print(number, "is Not Prime.")
 else:

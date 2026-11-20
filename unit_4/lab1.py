@@ -1,8 +1,6 @@
 try:
     with open("log.txt", "r") as file:
-
         error_count = 0
-
         line = file.readline()
 
         while line:
@@ -13,6 +11,5 @@ try:
             line = file.readline()
 
     print(f"Total errors found: {error_count}")
-
 except FileNotFoundError:
     print("The file 'log.txt' was not found.")

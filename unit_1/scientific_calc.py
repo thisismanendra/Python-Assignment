@@ -1,57 +1,17 @@
-# Program 2: Scientific Calculator for Two Numbers
-# This program performs scientific-style operations on two numbers.
-
-import math
-
-print("===== SCIENTIFIC CALCULATOR FOR TWO NUMBERS =====")
-
-a = float(input("Enter first number: "))
-b = float(input("Enter second number: "))
-
-print("\n1. Addition")
-print("2. Subtraction")
-print("3. Multiplication")
-print("4. Division")
-print("5. Power")
-print("6. Square root of first number")
-print("7. Square root of second number")
-print("8. Logarithm of first number")
-print("9. Logarithm of second number")
-
-choice = int(input("Enter your choice: "))
-
-if choice == 1:
-    print("Result =", a + b)
-elif choice == 2:
-    print("Result =", a - b)
-elif choice == 3:
-    print("Result =", a * b)
-elif choice == 4:
-    if b != 0:
-        print("Result =", a / b)
-    else:
-        print("Division by zero is not allowed.")
-elif choice == 5:
-    print("Result =", a ** b)
-elif choice == 6:
-    if a >= 0:
-        print("Result =", math.sqrt(a))
-    else:
-        print("Square root of a negative number is not real.")
-elif choice == 7:
-    if b >= 0:
-        print("Result =", math.sqrt(b))
-    else:
-        print("Square root of a negative number is not real.")
-elif choice == 8:
-    if a > 0:
-        print("Result =", math.log(a))
-    else:
-        print("Logarithm requires a positive number.")
-elif choice == 9:
-    if b > 0:
-        print("Result =", math.log(b))
-    else:
-        print("Logarithm requires a positive number.")
-else:
-    print("Invalid choice.")
+a=float(input("Enter First Number:"))
+b=float(input("Enter Second Number:"))
+sum=a+b
+diff=a-b
+prod=a*b
+quo=a/b
+modulus=a%b
+floor_div=a//b
+exponent=a**b
+print("Calculator using two numbers by different operations")
+print(f"Sum of two numbers:{sum}")
+print(f"Difference of two numbers:{diff}")
+print(f"Product of two numbers:{prod}")
+print(f"Division of two numbers:{quo}")
+print(f"Modulus of two numbers:{modulus}")
+print(f"Floor Division of two numbers:{floor_div}")
+print(f"Exponent of two numbers:{exponent}")	

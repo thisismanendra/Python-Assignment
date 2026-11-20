@@ -1,8 +1,4 @@
-# Program 2: Factorial Using a Loop
-# The factorial of n is the product of all positive integers from 1 to n.
-
 number = int(input("Enter a non-negative integer: "))
-
 if number < 0:
     print("Factorial is not defined for negative numbers.")
 else:

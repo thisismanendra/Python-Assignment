@@ -1,5 +1,4 @@
 contacts = []
-
 while True:
     print("\n--- CONTACT BOOK ---")
     print("1. Add Contact")
